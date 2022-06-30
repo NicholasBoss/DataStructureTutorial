@@ -35,6 +35,6 @@ encode('I love you')
 
 Your task is to create a decoder that will print all possible iterations of the decoded phrase and find out which iteration the decode test case is.
 
-[Stack Task]()
+[Stack Task](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/stacktask.py)
 
-[Stack Solution]()
+[Stack Solution](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/stacksolution.py)
