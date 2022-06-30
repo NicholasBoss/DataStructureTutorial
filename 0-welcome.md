@@ -2,11 +2,11 @@
 
 Welcome to the Data Structures tutorial where you will learn the basics about three different types of data structures.
 
-[Stack tutorial](https://link.here)
+[Stack tutorial](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/stack.md)
 
-[Set tutorial](https://link.here)
+[Set tutorial](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/set.md)
 
-[Binary Tree tutorial](https://link.here)
+[Binary Tree tutorial](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/tree.md)
 
 # Contact
 
