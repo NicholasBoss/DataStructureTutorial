@@ -38,3 +38,7 @@ Your task is to create a decoder that will print all possible iterations of the 
 [Stack Task](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/stacktask.py)
 
 [Stack Solution](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/stacksolution.py)
+
+# Back to Home
+
+[Return to Home](https://github.com/NicholasBoss/DataStructureTutorial/blob/master/0-welcome.md)
