@@ -1,9 +1,9 @@
 # The Stack Data Structure
 
-The stack data structure allows for a user to input information, such as letters or numbers in a list which then outputs them
+The `stack` data structure allows for a user to input information, such as letters or numbers in a list which then outputs them
 in reverse order. 
 
-For example, if someone wanted to encode a message using a stack in a caesar cipher, and that message was, 'I love you', they would put it in the stack, specify the shift and it would output one of twenty-six different encoded messages. 
+For example, if someone wanted to encode a message using a `stack` in a caesar cipher, and that message was, 'I love you', they would put it in the stack, specify the shift and it would output one of twenty-six different encoded messages. 
 
 The caesar cipher is one of the most basic encoding methods available and is not practical for real world use. The Cipher asks for a shift. That shift takes the text entered and shifts each letter that amount in the alphabet. If it reaches 'z', the shift continues back at 'a' and the same is true in the reverse case.
 
