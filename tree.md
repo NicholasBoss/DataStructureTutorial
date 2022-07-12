@@ -3,8 +3,6 @@ The `Binary Tree` Data Structure can be used to store sorted data within a list.
 
 For example, You have a data set that is disorganized from your quick note taking skills from a test you completed some time ago. YOu now want to create an organized method to make your data interpretable but you don't want duplicate data entered. An example of this in code would be:
 ```python
-#creating a tree and traversing it to see if it is in the correct order
-
 class BST:
 
     class Node:
