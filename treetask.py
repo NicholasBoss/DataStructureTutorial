@@ -16,6 +16,8 @@ class BST:
         else:
             self._insert(data, self.root)
 
+
+    #edit the _insert function to not accept duplicates
     def _insert(self, data, node): #insert a node into the tree
         if data < node.data: #if the data is less than the node data, go left
             if node.left is None: 
@@ -28,14 +30,16 @@ class BST:
             else: 
                 self._insert(data, node.right) 
 
+
+
     def __iter__(self): #iterate through the tree
-        yield from self._traverse_forward(self.root)  # Start at the root
+        yield from self._print_ordered(self.root)  # Start at the root
     
-    def _traverse_forward(self, node): #iterate through the tree
+    def _print_ordered(self, node): #iterate through the tree
         if node is not None: #if the node is not empty
-            yield from self._traverse_forward(node.left) #go left
+            yield from self._print_ordered(node.left) #go left
             yield node.data #print the node data
-            yield from self._traverse_forward(node.right) #go right
+            yield from self._print_ordered(node.right) #go right
 
 #test case 1
 print("Test case 1:")
