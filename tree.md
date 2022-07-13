@@ -36,14 +36,13 @@ class BST:
 The code above does not take into account the fact that there may be duplicate entries nor does it allow for the BST to be printed. The following code will allow for the BST to be iterated through and printed out to get the relevant data:
 ```python
 def __iter__(self): #iterate through the tree
-        yield from self._traverse_forward(self.root)  # Start at the root
-        
-    def _traverse_forward(self, node): #iterate through the tree
-
+        yield from self._print_ordered(self.root)  # Start at the root
+    
+    def _print_ordered(self, node): #iterate through the tree
         if node is not None: #if the node is not empty
-            yield from self._traverse_forward(node.left) #go left
+            yield from self._print_ordered(node.left) #go left
             yield node.data #print the node data
-            yield from self._traverse_forward(node.right) #go right
+            yield from self._print_ordered(node.right) #go right
 ```
 
 # Your Task
